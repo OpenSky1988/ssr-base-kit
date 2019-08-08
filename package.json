@@ -1,0 +1,25 @@
+{
+  "name": "ssr-base-kit",
+  "version": "1.0.0",
+  "description": "Base for SSR react-redux application with routing and hopefully caching",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenSky1988/ssr-base-kit.git"
+  },
+  "keywords": [
+    "ssr",
+    "react",
+    "redux",
+    "routing"
+  ],
+  "author": "Alexander Prisazhny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OpenSky1988/ssr-base-kit/issues"
+  },
+  "homepage": "https://github.com/OpenSky1988/ssr-base-kit#readme"
+}
