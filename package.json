@@ -4,7 +4,7 @@
   "description": "Base for SSR react-redux application with routing and hopefully caching",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
+    "start": "nodemon --exec babel-node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,17 @@
   },
   "homepage": "https://github.com/OpenSky1988/ssr-base-kit#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@babel/polyfill": "^7.4.4",
+    "express": "^4.17.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.0",
+    "react-router-config": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
+    "serialize-javascript": "^1.7.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.5.5",
